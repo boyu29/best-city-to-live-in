@@ -1,11 +1,5 @@
 # best-city-to-live-in
 
-- **city-quality-worldwide** contains .csv data, just run the jupyter notebook to do the data cleaning.
-
-
-- we also provide a back up dataset **livingwage-in-us**, added more columns to the original data, if you decide not to use this one, just discard it.
-
-
 ### Work done by: Orish Jindal and Sangeetha VS 
 Date: Feb 13, 2022.
 
@@ -37,3 +31,15 @@ We then clubbed the data by multiplying entries of the columns in the group and 
 
 For further actions: Run two parallel cases (Data driven and Manual categorization) and then assign weights for the person to make a better choice.
   
+### Work done by: Zhuomin Zhang and Janish Chauhan
+Date: Feb 21, 2022.
+
+What we were given:
+- df6 and df7 are 2 parallel cases
+- df6 for category1-4
+- df7 for manually selected category
+
+Our progress:
+- Plot bar figures for each category on continents
+- Use normalized mean of each column in categories to represent weight
+...
