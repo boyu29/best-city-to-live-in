@@ -45,4 +45,11 @@ Our progress:
 - Plot bar figures for each category on continents 
 - normalize each column, change the value to 0-10, adjust the mean of each column to  5, keep the variance unmodified
 - value for each category=avg(columns in this category)
+
+Date: Feb 22, 2022 (Jainish)
+- Kmeanse clustering on original data to cluster given cities into four categories
+- Trained xgboost classifier on these labeled data 
+- visualization of classification model
+- visualization of how much importance each feature has in categorizing given city into one of four categories
+- weights of each feature in decding category of city
 ...
