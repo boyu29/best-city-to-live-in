@@ -30,7 +30,9 @@ Housing, Cost of Living, Tolerance, Outdoors.
 We then clubbed the data by multiplying entries of the columns in the group and then normalized it for better visualization and removing bias for the four groups each in both the cases mentioned above (Data driven and Subjective). The code of our progress is uploaded on GitHub.
 
 For further actions: Run two parallel cases (Data driven and Manual categorization) and then assign weights for the person to make a better choice.
-  
+
+---
+ 
 ### Work done by: Zhuomin Zhang and Janish Chauhan
 Date: Feb 21, 2022.
 
@@ -40,6 +42,7 @@ What we were given:
 - df7 for manually selected category
 
 Our progress:
-- Plot bar figures for each category on continents
-- Use normalized mean of each column in categories to represent weight
+- Plot bar figures for each category on continents 
+- normalize each column, change the value to 0-10, adjust the mean of each column to  5, keep the variance unmodified
+- value for each category=avg(columns in this category)
 ...
