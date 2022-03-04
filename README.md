@@ -53,3 +53,9 @@ Date: Feb 22, 2022 (Jainish)
 - visualization of how much importance each feature has in categorizing given city into one of four categories
 - weights of each feature in decding category of city
 ...
+
+---
+
+### Work done by: Boyu Chen and Sangeetha
+Date: Mar 2, 2022.
+Added pie chart showing distributions of cities; visualized top cities for each category.
