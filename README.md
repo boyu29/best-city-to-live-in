@@ -58,4 +58,14 @@ Date: Feb 22, 2022 (Jainish)
 
 ### Work done by: Boyu Chen and Sangeetha
 Date: Mar 2, 2022.
-Added pie chart showing distributions of cities; visualized top cities for each category.
+
+What we were given:
+- df8: scores for category 1-4
+- df9: scores for manually selected categories
+
+Our progress:
+- Added pie chart showing distributions of cities
+- Plotted histograms of the cities with the highest scores for each type
+- Calculated weighted scores with preference: family > stability > entrepreneur > vacation
+- Calculated weighted scores with preference: catgeory4 > category3> category2 > category1
+- Marked the best cities on the US map based on the above preferences
