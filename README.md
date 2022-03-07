@@ -21,6 +21,7 @@ The data set is collected from [Kaggle](https://www.kaggle.com/orhankaramancode/
 root
 ├── data
 │   └──uaScoreDataFrame.csv  
+│
 ├── src
 │   ├── main.py
 │   ├── assign_weight.py
@@ -29,10 +30,14 @@ root
 │   ├── visualization.py
 │   ├── requirements.txt
 │   └── ...
+│
 ├── plots
 │   └── ...
+│
 ├── final_notebook.ipynb
+│
 ├── slides.pdf
+│
 └── README.md
 
 ```
