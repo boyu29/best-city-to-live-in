@@ -1,4 +1,4 @@
-#Best City To Live In Based Upon Preference
+# Best City To Live In Based Upon Preference
 ECE 143 final project by group2
 
 ## Collaborators
