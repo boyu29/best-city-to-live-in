@@ -1,71 +1,34 @@
-# best-city-to-live-in
+# <center>Best City To Live In Based Upon Preference</center>
+<center>ECE 143 final project by group2</center>
 
-### Work done by: Orish Jindal and Sangeetha VS 
-Date: Feb 13, 2022.
-
-What we were given:
-- Normalized data of all the columns 
-
-Our progress:
-- Found the co-relations of the given data to club those 17 columns.
-- Did hierarchical clustering to make 4 group based on positive co-relation index (shown
-in the heatmap below). The data driven categories are as follows:
-  1) Housing, Cost of Living.
-  2) Startups, Venture Capital, Travel Connectivity, Commute, Leisure & Culture,
-Outdoors.
-  3) Business freedom, Healthcare, Education, Environmental Quality, Economy, Internet
-Access, Tolerance.
-  4) Safety, taxation.
-
-- We also prepared another list by grouping the columns that may be prioritized in the same categories by a particular type of user.
-  1) Vacation Lovers:
-Travel Connectivity, Commute, Leisure & Culture, Internet Access.
-  2) Entrepreneurs & Businesspersons:
-Startups, Venture Capital, Business Freedom, Taxation, Economy.
-  3) Stability Seekers:
-Housing, Cost of Living, Tolerance, Outdoors.
-  4) Family:Healthcare, Education, Safety, Environmental Quality.
+## Collaborators
+Zhuomin Zhang<br>
+Sangeetha Viswanathan-Sakthivel <br>
+Jainish Chauhan<br>
+Orish Jindal<br>
+George Liu<br>
+Boyu Chen<br>
 
 
-We then clubbed the data by multiplying entries of the columns in the group and then normalized it for better visualization and removing bias for the four groups each in both the cases mentioned above (Data driven and Subjective). The code of our progress is uploaded on GitHub.
+# Overview
+The real world application of this solution is that both companies as well as individuals can use this to choose a location to build their company or live. For example, individuals can find a city based upon weather, salary, etc depending on their personal preferences. Using the general population’s preferences as well as the most popular cities, companies can strategically locate their locations to align with customers which can include financial status, weather, education, etc.
 
-For further actions: Run two parallel cases (Data driven and Manual categorization) and then assign weights for the person to make a better choice.
+# Data Set
+The data set is collected from [Kaggle](https://www.kaggle.com/orhankaramancode/city-quality-of-life-dataset) containing 265 cities and 21 columns.
 
----
- 
-### Work done by: Zhuomin Zhang and Janish Chauhan
-Date: Feb 21, 2022.
+# Third-party 
+pandas<br>
+numpy<br>
+matplotlib.pyplot<br>
+sklearn<br>
+seaborn<br>
+scipy<br>
+xgboost<br>
+folium<br>
+IPython.display<br>
 
-What we were given:
-- df6 and df7 are 2 parallel cases
-- df6 for category1-4
-- df7 for manually selected category
-
-Our progress:
-- Plot bar figures for each category on continents 
-- normalize each column, change the value to 0-10, adjust the mean of each column to  5, keep the variance unmodified
-- value for each category=avg(columns in this category)
-
-Date: Feb 22, 2022 (Jainish)
-- Kmeanse clustering on original data to cluster given cities into four categories
-- Trained xgboost classifier on these labeled data 
-- visualization of classification model
-- visualization of how much importance each feature has in categorizing given city into one of four categories
-- weights of each feature in decding category of city
+# File Structure
 ...
 
----
-
-### Work done by: Boyu Chen and Sangeetha
-Date: Mar 2, 2022.
-
-What we were given:
-- df8: scores for category 1-4
-- df9: scores for manually selected categories
-
-Our progress:
-- Added pie chart showing distributions of cities
-- Plotted histograms of the cities with the highest scores for each type
-- Calculated weighted scores with preference: family > stability > entrepreneur > vacation
-- Calculated weighted scores with preference: catgeory4 > category3> category2 > category1
-- Marked the best cities on the US map based on the above preferences
+# Run the code
+run ```src/main.py```  which contains read in .csv data, preprocess and clean data, analyze and assign weight, plot all figures and save to ```plots``` file.
