@@ -1,4 +1,4 @@
-# <center>Best City To Live In Based Upon Preference</center>
+#<center>Best City To Live In Based Upon Preference</center>
 <center>ECE 143 final project by group2</center>
 
 ## Collaborators
@@ -16,6 +16,35 @@ The real world application of this solution is that both companies as well as in
 # Data Set
 The data set is collected from [Kaggle](https://www.kaggle.com/orhankaramancode/city-quality-of-life-dataset) containing 265 cities and 21 columns.
 
+# File Structure
+```
+root
+├── data
+│   └──uaScoreDataFrame.csv  
+├── src
+│   ├── main.py
+│   ├── assign_weight.py
+│   ├── data_cleaning.py
+│   ├── set_category.py.py
+│   ├── visualization.py
+│   ├── requirements.txt
+│   └── ...
+├── plots
+│   └── ...
+├── final_notebook.ipynb
+├── slides.pdf
+└── README.md
+
+```
+
+# Run the code
+Please download/import all third-party modules before executing the code，then do the following：
+
+```
+python src/main.py
+``` 
+It will run the whole project including read in .csv data, preprocess and clean data, analyze and assign weight, plot all figures and save to ```plots``` file.
+
 # Third-party 
 pandas<br>
 numpy<br>
@@ -26,9 +55,3 @@ scipy<br>
 xgboost<br>
 folium<br>
 IPython.display<br>
-
-# File Structure
-...
-
-# Run the code
-run ```src/main.py```  which contains read in .csv data, preprocess and clean data, analyze and assign weight, plot all figures and save to ```plots``` file.

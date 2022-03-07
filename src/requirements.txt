@@ -1,0 +1,9 @@
+pandas
+numpy
+matplotlib.pyplot
+sklearn
+seaborn
+scipy
+xgboost
+folium
+IPython.display
