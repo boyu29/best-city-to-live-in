@@ -1,5 +1,5 @@
-#<center>Best City To Live In Based Upon Preference</center>
-<center>ECE 143 final project by group2</center>
+#Best City To Live In Based Upon Preference
+ECE 143 final project by group2
 
 ## Collaborators
 Zhuomin Zhang<br>
