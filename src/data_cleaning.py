@@ -12,6 +12,9 @@ def data_cleaning(filename:str):
         df: pd.DataFrame original data
         df2: pd.DataFrame after one-hot-key
     '''
+
+    assert isinstance(filename,str)
+
     df = pd.read_csv(filename)
 
     # check for any incompletes or duplicates

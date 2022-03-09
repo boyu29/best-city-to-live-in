@@ -21,13 +21,13 @@ if __name__=='__main__':
 
     #assign weight to 2 parallel cases
     df8,df9=assign_weight(df,df4,category)
-    #cluster_weight(df)
+
 
     print(df8)
     print(df9)
 
     print('Process Finished... See plots in plots folder')
-    #visualisation  -- to be done ---
+
 
 
 

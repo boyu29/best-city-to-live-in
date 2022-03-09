@@ -22,6 +22,8 @@ def find_correlation(df2):
         manual_list: list from manually selected
     '''
 
+    assert isinstance(df2,pd.DataFrame)
+
     file = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
     filename = file + '/plots/'
 
