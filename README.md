@@ -19,6 +19,7 @@ The data set is collected from [Kaggle](https://www.kaggle.com/orhankaramancode/
 # File Structure
 ```
 root
+│
 ├── data
 │   └──uaScoreDataFrame.csv  
 │
@@ -28,8 +29,7 @@ root
 │   ├── data_cleaning.py
 │   ├── set_category.py.py
 │   ├── visualization.py
-│   ├── requirements.txt
-│   └── ...
+│   └── requirements.txt
 │
 ├── plots
 │   └── ...
