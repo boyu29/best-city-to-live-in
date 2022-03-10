@@ -35,9 +35,6 @@ def plot_continent_wise(r,fig_name):
     plt.legend(bbox_to_anchor=(1.05, 1), loc=0, borderaxespad=0.)
     f.savefig(filename+fig_name+'.jpg')
 
-
-
-
 def plot_invariance_on_continent(l,df,fig_name):
     '''
     plot bar chart on continents for category
@@ -67,7 +64,6 @@ def plot_invariance_on_continent(l,df,fig_name):
     ax.legend(loc='upper right', frameon=True)
 
     f.savefig(filename+fig_name+'.jpg')
-
 
 def assign_weight(df,df4,category):
     '''
