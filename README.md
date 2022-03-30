@@ -27,7 +27,7 @@ root
 │   ├── main.py
 │   ├── assign_weight.py
 │   ├── data_cleaning.py
-│   ├── set_category.py.py
+│   ├── set_category.py
 │   ├── visualization.py
 │   └── requirements.txt
 │
